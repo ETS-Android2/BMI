@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_default_weight_unit_entries">
+        <item>Kilogrammes</item>
+        <item>Livres</item>
+    </string-array>
+    <string-array name="pref_default_height_unit_entries">
+        <item>Mètres</item>
+        <item>Centimètres</item>
+        <item>Pieds</item>
+    </string-array>
+    <string-array name="pref_add_button_placement_entries">
+        <item>Après la Liste</item>
+        <item>Dans le Coin Inférieur Droit</item>
+    </string-array>
+    <string-array name="pref_default_language_entries">
+        <item>Anglais</item>
+        <item>Francais</item>
+    </string-array>
+</resources>

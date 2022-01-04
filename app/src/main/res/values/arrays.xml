@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_default_weight_unit_entries">
+        <item>Kilograms</item>
+        <item>Pounds</item>
+    </string-array>
+    <string-array name="pref_default_weight_unit_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="pref_default_height_unit_entries">
+        <item>Meters lol</item>
+        <item>Centimeters lol</item>
+        <item>Feet</item>
+    </string-array>
+    <string-array name="pref_default_height_unit_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="pref_add_button_placement_entries">
+        <item>After The List</item>
+        <item>In the Bottom Rght Corner</item>
+    </string-array>
+    <string-array name="pref_add_button_placement_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+
+    <string-array name="pref_default_language_entries">
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+    <string-array name="pref_default_language_values">
+        <item>en</item>
+        <item>fr</item>
+    </string-array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+</resources>

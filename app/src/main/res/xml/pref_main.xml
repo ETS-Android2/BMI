@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/title_fragment_imc_calculator">
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/pref_title_default_weight_unit"
+            android:entries="@array/pref_default_weight_unit_entries"
+            android:entryValues="@array/pref_default_weight_unit_values"
+            android:key="key_default_weight_unit"
+            android:summary="@string/pref_summary_default_weight_unit"
+            android:title="@string/pref_title_default_weight_unit" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/pref_title_default_height_unit"
+            android:entries="@array/pref_default_height_unit_entries"
+            android:entryValues="@array/pref_default_height_unit_values"
+            android:key="key_default_height_unit"
+            android:summary="@string/pref_summary_default_height_unit"
+            android:title="@string/pref_title_default_height_unit" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/title_fragment_peoples_list">
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/pref_title_add_button_placement"
+            android:entries="@array/pref_add_button_placement_entries"
+            android:entryValues="@array/pref_add_button_placement_values"
+            android:key="key_add_button_placement"
+            android:summary="@string/pref_summary_add_button_placement"
+            android:title="@string/pref_title_add_button_placement" />
+
+    </PreferenceCategory>
+
+    <!--
+    <PreferenceCategory android:title="@string/pref_title_notifications">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="key_notification"
+            android:title="@string/pref_title_notifications" />
+
+    </PreferenceCategory>
+    -->
+    <PreferenceCategory android:title="@string/pref_header_language">
+
+        <ListPreference
+            android:defaultValue="en_En"
+            android:dialogTitle="@string/pref_title_language"
+            android:entries="@array/pref_default_language_entries"
+            android:entryValues="@array/pref_default_language_values"
+            android:key="key_language"
+            android:summary="@string/pref_summary_language"
+            android:title="@string/pref_title_language" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_header_about">
+
+        <Preference
+            android:checked="false"
+            android:title="@string/pref_title_creator"
+            android:summary="@string/pref_summary_creator" />
+
+        <Preference
+            android:summary="@string/app_version"
+            android:title="@string/pref_title_version" />
+
+        <Preference
+            android:key="key_send_feedback"
+            android:summary="@string/pref_summary_send_feedback"
+            android:title="@string/pref_title_send_feedback" />
+
+        <!-- preference opens url in browser -->
+        <Preference
+            android:summary="@string/pref_summary_site"
+            android:title="@string/pref_title_site">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/pref_url_site" />
+        </Preference>
+
+    </PreferenceCategory>
+</PreferenceScreen>

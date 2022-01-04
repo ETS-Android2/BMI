@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name" translatable="false">@string/label_BMI</string>
+
+    <string name="title_fragment_imc_calculator">Calculator</string>
+    <string name="title_fragment_peoples_list">List</string>
+    <string name="label_name_dot">Name :</string>
+    <string name="navigation_drawer_open" translatable="false">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close Navigation Drawer</string>
+    <string name="nav_subtitle_other">Other</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_fragment_info">Info</string>
+    <string name="label_weight_dot">Weight :</string>
+    <string name="label_weight">Weight</string>
+    <string name="label_height_dot">Height :</string>
+    <string name="label_height">Height</string>
+    <string name="label_height_inches">Height (In Inches)</string>
+    <string name="label_meter">Meter</string>
+    <string name="label_centimeter">Centimeter</string>
+    <string name="label_calc">Calculate BMI</string>
+    <string name="label_result">Result :</string>
+    <string name="label_result_text_0">You have to click on the Calculate BMI button to get a result.</string>
+    <string name="label_name">Name</string>
+    <string name="label_empty_view">This person doesn\'t have BMI for now.</string>
+    <string name="label_add_people">Add someone</string>
+    <string name="label_in">"In %1$s"</string>
+    <string name="label_delete_text_people">Do you wish to delete %1$s and all of his data ? (irreversible action)</string>
+    <string name="label_new_people">New person</string>
+    <string name="label_save">Save</string>
+    <string name="label_save_text">Thanks to indicate the person\'s name and the date :</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_add">Add</string>
+    <string name="label_add_text">Thanks to indicate the new person\'s name :</string>
+    <string name="label_error">the label %1$s can\'t be empty</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_edit_text">Thanks to indicate the %1$s new name :</string>
+    <string name="label_delete_text">Do you want to delete his data ?</string>
+    <string name="label_edit">Edit</string>
+    <string name="label_error_0_w">the label Weight can\'t be equals to 0</string>
+    <string name="label_error_0_h">the label Height can\'t be equals to 0</string>
+    <string name="label_error_empty_label">Error! Fill the labels</string>
+    <string name="label_result_text_1">"Your BMI is %1$f.&#13;Interpretation : "</string>
+    <string name="label_result_interpretation_0">Severely underweight</string>
+    <string name="label_result_interpretation_1">Underweight</string>
+    <string name="label_result_interpretation_2">Normal weight</string>
+    <string name="label_result_interpretation_3">Overweight</string>
+    <string name="label_result_interpretation_4">Obese Class I</string>
+    <string name="label_result_interpretation_5">Obese Class II</string>
+    <string name="label_result_interpretation_6">Obese Class III</string>
+    <string name="label_BMI">BMI</string>
+    <string name="label_BMI_text">BMI : %1$s (%2$s)</string>
+    <string name="label_yes">Yes</string>
+    <string name="label_no">No</string>
+    <string name="label_quit_text">Do you wish to exit the application ?</string>
+    <string name="label_quit">Exit</string>
+    <string name="data_file_name" translatable="false">imc_file.txt</string>
+    <string name="label_date_dot">Date :</string>
+    <string name="label_raz">clear</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_title_default_weight_unit">Default Weight Unit</string>
+    <string name="pref_summary_default_weight_unit">Specify default unit for Weight label</string>
+
+    <string name="pref_title_default_height_unit">Default Height Unit</string>
+    <string name="pref_summary_default_height_unit">Specify default unit for Height label</string>
+
+    <string name="pref_title_add_button_placement">Add Button Placement</string>
+    <string name="pref_summary_add_button_placement">Set the placement of the add button</string>
+
+    <string name="pref_header_language">Language</string>
+
+    <string name="pref_title_language">Language</string>
+    <string name="pref_summary_language">Set the application language</string>
+
+    <string name="pref_title_notifications">Notifications</string>
+
+    <string name="pref_header_about">About</string>
+
+    <string name="pref_title_creator">Creator : Reigues &amp; Corp</string>
+    <string name="pref_summary_creator">"A corporation who include only one person. He is called Reigues and he makes some application when he has the time. "</string>
+
+    <string name="pref_title_version">Version</string>
+
+    <string name="pref_title_send_feedback" translatable="false">@string/label_send_feedback</string>
+    <string name="pref_summary_send_feedback">Say us what do you think about this app</string>
+
+    <string name="pref_title_site">My site</string>
+    <string name="pref_summary_site">Visit our work</string>
+    <string name="pref_url_site" translatable="false">https://appfilesr.000webhostapp.com/</string>
+
+    <string name="choose_email_client">Choose email client</string>
+    <string name="label_in_middle">"%1$s in %2$s"</string>
+    <string name="label_feedback_dot">Feedback :</string>
+    <string name="label_feedback">Feedback</string>
+    <string name="label_send_feedback">Send Feedback</string>
+    <string name="label_send">Send</string>
+
+    <string name="label_body_mass_index">Body Mass Index</string>
+    <string name="label_version_v">v</string>
+    <string name="label_creators" translatable="false">Reigues &amp; Corp</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>
